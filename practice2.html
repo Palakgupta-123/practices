@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         *{
+        padding: 0px;
+        margin: 0px;
+        width:100%;
+    }
+    
+        nav{
+            background-color:black;
+            width:100%;
+            height:80px;
+            color:white;
+            padding-left: 40px;
+            align-content: center;
+            font-size: 30px;
+            box-sizing: border-box;
+        }
+        #fine_rest{
+            background-color:black;
+            font-size: 15px;
+            padding-left: 30px;
+            width:40%;
+            box-sizing: border-box;
+        }
+        .parent{
+            display: flex;
+            justify-content: flex-end;
+            width:50%;
+            float:right;
+            margin-top: -45px;
+            background-color: black;
+            padding-right: 20px;
+            box-sizing: border-box;
+        }
+        .parent a{
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+        }
+
+        button{
+            background-color: rgb(33, 202, 145);
+            height: 30px;
+            margin-top: -6px;
+            font-weight: bolder;
+            width:80%;
+            box-sizing: border-box;
+        }
+        #carousel{
+            height:500px;
+            box-sizing: border-box;
+            width:100%;
+        }
+        #hover_box{
+            background-color: black;
+            height:150px;
+            width:400px;
+            margin-top: -400px;
+            position: absolute;
+            margin-left: 60px;
+            opacity: 0.7;
+            text-align: center;
+            align-content: center;
+            font-size: 25px;
+            color: white;
+            font-family: cursive;
+        }
+        #hover_box2{
+            background-color: rgb(33, 202, 145);
+            height:30px;
+            width:400px;
+            margin-top: -250px;
+            position: absolute;
+            margin-left: 60px;
+            text-align: center;
+            color: white;
+            font-weight: bold;
+            align-content: center;
+        }
+        #hover_text{
+            font-size: 16px;
+            padding-top: 5px;
+            font-family: cursive;
+        }
+        hr{
+            width:100%;
+            background-color:rgb(233, 174, 26);
+            height:20px;
+            box-sizing: border-box;
+            margin-top: -4px;
+        }
+        #carousel_2{
+            height:1500px;
+            box-sizing: border-box;
+            opacity: 0.2;
+        }
+        #menu_text{
+            position: absolute;
+            margin-top:-1470px;
+            width:100%;
+            box-sizing: border-box;
+            height:50px;
+            text-align: center;
+            align-content: center;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        #menu{
+            margin-top: -1340px;
+            position:absolute;
+            width:80%;
+            box-sizing: border-box;
+            margin-left: 170px;
+            
+        }
+        #appetizers #asset1{
+            height:150px;
+            width:200px;
+            box-sizing: border-box;
+        }
+        #appetizers{
+            background-color: white;
+            width:200px;
+            margin-left: 60px;
+            height:250px;
+            box-sizing: border-box;
+        }
+        #entrees #asset2{
+            height:150px;
+            width:200px;
+            box-sizing: border-box;
+        }
+        #entrees{
+            background-color:white;
+            width:200px;
+            height:250px;
+            margin-left: 330px;
+            margin-top: -250px;
+            box-sizing: border-box;
+        }
+        #desserts #asset3{
+            height:150px;
+            width:200px;
+            box-sizing: border-box;
+        }
+        #desserts{
+            background-color: white;
+            width:200px;
+            height:250px;
+            margin-left: 590px;
+            margin-top: -250px;
+            box-sizing: border-box;
+        }
+        #drinks #asset4{
+            height:150px;
+            width:200px;
+            box-sizing: border-box;
+        }
+        #drinks{
+            background-color: white;
+            width:200px;
+            height:250px;
+            margin-left: 850px;
+            margin-top: -250px;
+            box-sizing: border-box;
+        }
+        #reviews{
+            width:100%;
+            height:400px;
+            background-color:white;
+            position: absolute;
+            margin-top: -1010px;
+            box-sizing: border-box;
+        }
+        #reviews #asset5{
+            height:400px;
+            width:500px;
+            box-sizing: border-box;
+        }
+        #review_2{
+        width:55%;
+        margin-left: 550px;
+        margin-top: -390px;
+        }
+        #about{
+            height:450px;
+            width:100%;
+            margin-top: -610px;
+            position: absolute;
+            box-sizing: border-box;
+        }
+        #asset6{
+            height:250px;
+            width:250px;
+            box-sizing: border-box;
+            margin-left: 120px;
+            margin-top: 10px;
+        }
+        #about_text{
+            width:40%;
+            margin-left: 380px;
+            margin-top:-250px;
+            
+        }
+        #footer{
+            height:100px;
+            width: 100%;
+            background-color: black;
+            margin-top: -101px;
+            position: absolute;
+            box-sizing: border-box;
+            color:white;
+        }
+        #form_box{
+            width:25%;
+            margin-left:1030px;
+            margin-top: -140px;
+            box-sizing: border-box;
+        }
+        form{
+            width:20%;
+            color:black;
+            box-sizing: border-box;
+            
+        }
+        #submit{
+            background-color: rgb(29, 185, 70);
+            width:90px;
+            font-size: 15px;
+        }
+        input{
+            width:200px;
+            height:30px;
+            padding-left: 10px;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav>Tannery Creek 
+        <p id="fine_rest">Fine Restaurant</p>
+    </nav>
+    <div class="parent"> 
+        <a href=""><div class="child_1">Home</div></a>
+        <a href=""><div class="child_1">Menu</div></a>
+        <a href=""><div class="child_1">Review</div></a>
+        <a href=""><div class="child_1">About</div></a>
+        <button><div class="child_1">Contact</div></button>
+    </div>
+    <img src="assets\sprites\image_7.jpeg" id="carousel">
+    <div id="hover_box">Your Dining Experience Awaits
+        <p id="hover_text">Reserve a Table online for a Perfect Reunion</p>
+    </div>
+    <a href=""><div id="hover_box2">Make Your Reservations Online Now</div></a>
+    <hr>
+    <img src="assets\sprites\image_8.png" id="carousel_2">
+    <p id="menu_text">Delectable Gourmet Cuisine For All Palates</p>
+    <div id="menu">
+
+        <div id="appetizers">
+            <img src="assets\sprites\image_1.jpeg" id="asset1"><div style="text-align: center;">APPETIZERS<p>fhjfhufhiwfhifdnjwnknkknk</p><p>uhufhufhufhufhufhjhko</p></div>
+        </div>
+
+        <div id="entrees">
+            <img src="assets\sprites\images_2.jpeg" id="asset2"><div style="text-align: center;">ENTREES<P>fwfegegegegegwfwffeffkfw</P><p>ffwfwfwfwdwgegmkmrrr</p></div>
+        </div>
+
+        <div id="desserts">
+            <img src="assets\sprites\images_3.jpeg" id="asset3"><div style="text-align: center;">DESSERTS<p>okisjvnuwgkenuwjiwsnjsnvi<br>vnuhduwiwfujvfjbnwfjwni</p></div>
+        </div>
+
+        <div id="drinks">
+            <img src="assets\sprites\images_4.jpeg" id="asset4"><div style="text-align: center;">DRINKS & SPRITES<p>fjeifidufhidjqqywrywbcjnc<br>hcbehycuhjibhdjnchfefe</p></div>
+        </div>
+    </div>
+    <div id="reviews">
+        <img src="assets\sprites\image_5.jpeg" id="asset5">
+        <div id="review_2">
+        <p style="font-size: 30px;">WHAT OUR PATRONS HAVE TO SAY</p>
+        <p style="font-size: 20px; margin-top: 30px;">ekvnejvnemwnfwkmnwjfemnekflmnjfkfneifwmkfhkjwhfuhfjhebfjshiuefjghiehgjvkjdvk</p>
+        <p style="font-size: 20px;">hcshcyhcjodihncklduwhfiowhfihcwbciuwjioknufhwifhfhwoifkdnwhwifohbuvdhtjtgrhykyhefrjy6h</p>
+        <p style="font-size: 20px;">jnekfjhudjwjbfwdmjueifkwjfguywuwyrifcnjksfhiwjfuiwhiwjdhwufiwfnkjfhiffeyjtykcwdwjdbuhqhwd</p>
+        <br>dbhdihdujdqjbshuqhjdbwhduqdhiudhwyddjwdhiwudjqudqiduhudwwfuwhfiofhiwfdwtghrfehthsdkjdhidjhiufuiwhfnwr3rmc
+        <br>fudjqiuyebt7iuhr387dryhjqoey27ry837527rnx2irb3rxqikufguwfjwjfhiuwfj
+        <p style="font-size: 20px; padding-top: 20px;">dwiw7ghy82ytr67r83br7ru73ry8ru87247iuwdhwiujjqhdjwjfjehvisncbhahdiowhfifhrgecrbrgdewgrgdc</p>
+        <p style="font-size: 20px;">jdhwudcni2ufr3rnuwi7yinchsnynhjqsnguwiisqodoemdkjhbnkdcnhfjowhfiuejckjebhiew</p>
+        </div>
+    </div>
+    <div id="about"><p style="font-size: 25px; margin-left: 120px; margin-top: 100px;width:40%">ABOUT TANNERY CREEK FINE RESTAURANT</p>
+        <img src="assets\sprites\image_6.jpeg" id="asset6">
+        <div id="about_text">gdwiodhwuiqidgunhcqiudyonwyrbu63tbrioqcnyuwnjd;mlemhngiusjdsgfuishfkushfs
+        <br>fidiojqcyh7uhqxiuetfiwgfuiwute7qteiuwhfjdsbvmdnm,mlsmblihgiojdhjhsgdiuqdhjadx
+        <br>fkwcficwycr7qnxdiuxcwgqeinwhufqximdnyufwruwtirytuqdhhbvczbhbshjfgsufgjffkj
+        <br>cfhwcg7ufxyemucngywrmgeumiownfhwdhcwfhn
+        <br>dchhwichutge7ryxwbcrqxtyb2yet3urty3urigyr<br>
+        </div>
+        <div id="form_box">
+            <form>
+                <label for="name" style="font-size: 25px;padding-left: 50px;">RESERVATIONS</label><br><br>
+                <label style="font-size: 15px;">fegrgsefrhdfwlmfbvfujvjvidijgidjbidjbfjnbdbbdj<br>bdbsvbnhgcbdbdbvbnbvbdvsqxnhdgcwbffsf</label>
+                <br><br>
+                <input type="text" id="name" placeholder="NAME" ><br>
+                <br>
+                <input type="password" id="pwd" placeholder="DATE"><br>
+                <br>
+                <input type="tel" id="phone" placeholder="000-0000-000"><br><br>
+                <input type="submit" id="submit">
+                </form>
+        </div>
+    </div>
+    <div id="footer">
+        ceghrvkfjiofjihvikwshfijgfijfiehtiowjrhuieuhihi
+    </div>
+</body>
+</html>
